@@ -1,0 +1,39 @@
+v0.3.0 (2017-02-26)
+- Provide settings for the addon
+
+v0.2.1 (2017-02-19)
+- Fixed indentation error that manifests itself at install time
+ 
+v0.2.0 (2017-01-01)
+- Resumepoint support (using a local db)
+
+v0.1.6  (2016-09-09)
+- Made changes so both .mp4 and .strm files can be used
+
+v0.1.5  (2016-08-14)
+- Changed from .strm files to small .mp4 files
+
+v0.1.4  (2016-07-22)
+- Fixed various small problems
+
+v0.1.3  (2016-07-21)
+- Added watched status (Video needs to be played past 95% of duration)
+
+v0.1.2  (2016-07-03)
+- Added more media infotags for possible use by the OSD
+
+v0.1.1  (2016-07-01)
+- Add mediainfo to the OSD (thumb, movietitle, episodename, ...)
+- Change starttime seek to a more robust way
+
+v0.1.0  (2016-06-19)
+- Initial release
+
+ToDo (if possible):
+- Chapters (needs own DB)
+- Scraping (this will be the last to add)
+
+Wish list:
+- A (video)player.strmpathandfilename or (video)player.strmpath & (video)player.strmfilename infolabel
+- A way to get the user choice from the resume video dialog (an infolabel?)
+- The possibility to get and set chapter info through JSON
